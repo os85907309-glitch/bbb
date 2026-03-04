@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charse="UTF-8">
+    <meta name="viewport" content="width=device-width, initail-scale=1.0">
+    <tiltle>Document</tiltle>
+    <style>
+        h2{
+            color: red;
+            font-size: 50px;
+            background-color: rgb(250,250,250);
+        }
+    </style>
+</head>
+<body>
+    <h2>hello</h2>
+</body>
+</html>
+<script>
+    const a = document.getElementsByTagName('h2');
+    a[0].onclick = function(){
+        console.log("h2 누름");
+    }
+    console.log("test");
+</script>
